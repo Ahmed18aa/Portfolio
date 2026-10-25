@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Portfolio personnel d'Ahmed, développeur web en formation.">
+  <title>Ahmed — Portfolio développeur web</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar navbar-expand-lg container" aria-label="Navigation principale">
+      <a class="navbar-brand" href="#accueil">ahmed<span>.</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-label="Ouvrir le menu"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-3">
+          <li><a class="nav-link active" href="#accueil">Accueil</a></li><li><a class="nav-link" href="#services">Services</a></li><li><a class="nav-link" href="#competences">Compétences</a></li><li><a class="nav-link" href="#formation">Formation</a></li><li><a class="nav-link" href="#projets">Projets</a></li><li><a class="nav-link" href="#templates">Templates</a></li>
+          <li><a class="nav-contact" href="#contact">Me contacter <span>↗</span></a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section id="accueil" class="hero container section-space">
+      <div class="hero-copy">
+        <div class="eyebrow"><i></i> Portfolio personnel · 2026</div>
+        <h1>Je transforme<br>des idées en <span>web.</span></h1>
+        <p class="intro">Bonjour, je m'appelle Ahmed. Je suis développeur web en formation, passionné par les interfaces soignées et les expériences simples à utiliser.</p>
+        <div class="hero-actions"><a class="button-primary" href="#projets">Découvrir mes projets <span>↘</span></a><a class="button-quiet" href="CV.pdf" download>Télécharger mon CV <span>↓</span></a></div>
+        <div class="hero-meta"><span>Basé en Tunisie</span><span>Disponible pour des projets</span></div>
+      </div>
+      <div class="code-scene" aria-label="Aperçu de code JavaScript">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="code-card"><div class="code-top"><span class="traffic"><b></b><b></b><b></b></span><span>portfolio.js</span><span class="code-mark">⌘</span></div>
+          <pre><span class="line">01</span> <em>const</em> developer = {
+<span class="line">02</span>   name: <strong>'Ahmed'</strong>,
+<span class="line">03</span>   focus: <strong>'Web development'</strong>,
+<span class="line">04</span>   skills: [
+<span class="line">05</span>     <strong>'HTML', 'CSS', 'Bootstrap'</strong>,
+<span class="line">06</span>     <strong>'JavaScript', 'PHP'</strong>,
+<span class="line">07</span>     <strong>'Python', 'C', 'SQL'</strong>
+<span class="line">08</span>   ],
+<span class="line">09</span>   status: <em>'always learning'</em>
+<span class="line">10</span> };</pre>
+        </div>
+        <span class="float-tag tag-html">▣ &nbsp;HTML5</span><span class="float-tag tag-css">✳ &nbsp;CSS3</span><span class="float-tag tag-js">JS &nbsp;JavaScript</span><div class="progress-chip"><b>01</b><span>toujours<br>en progrès</span></div>
+      </div>
+    </section>
+    <section id="services" class="container section-space">
+      <div class="section-heading"><div><div class="eyebrow">Ce que je fais</div><h2>Des solutions utiles,<br><span>pensées avec soin.</span></h2></div><p>Du premier croquis à la mise en ligne, je construis des expériences web accessibles, rapides et adaptées à tous les écrans.</p></div>
+      <div class="row g-3 service-grid"><div class="col-md-4"><article class="surface service-card"><span class="icon">⌘</span><h3>Sites web</h3><p>Des pages responsives et claires, conçues pour présenter une activité ou une idée.</p><span class="card-index">01 / 03</span></article></div><div class="col-md-4"><article class="surface service-card"><span class="icon">✳</span><h3>Interfaces UI</h3><p>Une attention portée à la lisibilité, aux détails visuels et aux interactions.</p><span class="card-index">02 / 03</span></article></div><div class="col-md-4"><article class="surface service-card"><span class="icon">⌁</span><h3>Développement</h3><p>Des bases solides en intégration web et une curiosité pour les outils modernes.</p><span class="card-index">03 / 03</span></article></div></div>
+    </section>
+    <section id="competences" class="container section-space">
+      <div class="section-heading"><div><div class="eyebrow">Ma boîte à outils</div><h2>Compétences &<br><span>technologies.</span></h2></div><p>Des technologies apprises et mises en pratique au fil de ma formation et de mes projets personnels.</p></div>
+      <div class="skills-panel surface"><div class="skill"><span class="skill-icon orange">5</span><div><b>HTML5</b><small>Structure web</small></div><span class="skill-level">Avancé</span></div><div class="skill"><span class="skill-icon blue">✳</span><div><b>CSS3</b><small>Styles & animations</small></div><span class="skill-level">Avancé</span></div><div class="skill"><span class="skill-icon yellow">JS</span><div><b>JavaScript</b><small>Interactions</small></div><span class="skill-level">Intermédiaire</span></div><div class="skill"><span class="skill-icon purple">B</span><div><b>Bootstrap</b><small>Interface responsive</small></div><span class="skill-level">Intermédiaire</span></div><div class="skill"><span class="skill-icon green">&lt;/&gt;</span><div><b>PHP</b><small>Développement côté serveur</small></div><span class="skill-level">En apprentissage</span></div><div class="skill"><span class="skill-icon blue">Py</span><div><b>Python</b><small>Programmation</small></div><span class="skill-level">En apprentissage</span></div><div class="skill"><span class="skill-icon gray">C</span><div><b>C</b><small>Fondamentaux & algorithmique</small></div><span class="skill-level">En apprentissage</span></div><div class="skill"><span class="skill-icon pink">Q</span><div><b>SQL</b><small>Bases de données</small></div><span class="skill-level">En apprentissage</span></div></div>
+    </section>
+    <section id="formation" class="container section-space compact-section"><div class="section-heading"><div><div class="eyebrow">Mon parcours</div><h2>Apprendre en<br><span>construisant.</span></h2></div><p>Je développe mes compétences en informatique et en développement web à travers mes études et des projets pratiques.</p></div><div class="timeline surface"><div class="timeline-dot"></div><div><span class="eyebrow">Formation · En cours</span><h3>Informatique & développement web</h3><p>Institut Supérieur des Études Technologiques de Gafsa (ISET Gafsa)</p></div><span class="timeline-date">2026 — aujourd'hui</span></div></section>
+        <section id="projets" class="container section-space">
+      <div class="section-heading"><div><div class="eyebrow">Sélection</div><h2>Projets <span>récents.</span></h2></div><p>Des expériences web responsive, des interfaces claires et des projets réalisés pour apprendre en construisant.</p></div>
+      <div class="row g-3">
+        <div class="col-md-4"><article class="project-card surface"><div class="project-art art-violet"><div class="mini-window"><div class="mini-nav"></div><div class="mini-content"><i></i><b></b><b></b><span></span></div></div><span class="art-label">WEB DESIGN / 01</span></div><div class="project-info"><div><h3>Portfolio personnel</h3><p>Une vitrine web responsive pour présenter mon parcours.</p></div><a href="#contact" aria-label="Discuter du projet Portfolio personnel">↗</a></div><div class="tags"><span>HTML</span><span>CSS</span><span>Bootstrap</span></div></article></div>
+        <div class="col-md-4"><article class="project-card surface"><div class="project-art art-green"><div class="mini-dashboard"><i></i><i></i><i></i><b></b><b></b><span></span></div><span class="art-label">CONCEPT / 02</span></div><div class="project-info"><div><h3>Tableau de bord</h3><p>Concept d'interface pour visualiser des données simplement.</p></div><a href="#contact" aria-label="Discuter du projet Tableau de bord">↗</a></div><div class="tags"><span>UI</span><span>JavaScript</span><span>Design</span></div></article></div>
+        <div class="col-md-4"><article class="project-card surface" data-new-project>
+          <div class="project-art art-market"><div class="mini-store"><div class="mini-store-nav"><b>✳ nova</b><span>SHOP&nbsp;&nbsp; ABOUT&nbsp;&nbsp; JOURNAL</span><i></i></div><div class="mini-store-banner"><small>THE EVERYDAY EDIT</small><b>Good things<br>for good days.</b><span></span></div><div class="mini-store-row"><i></i><i></i><i></i></div></div><span class="art-label">ECOMMERCE / 03</span></div>
+          <div class="project-info"><div><h3>Nova Market</h3><p>Boutique en ligne responsive avec catalogue et page produit.</p></div></div>
+          <div class="project-links"><a href="nova-market/index.html" target="_blank" rel="noopener">Voir le site <span>↗</span></a><a href="nova-market-source.zip" download>Télécharger le code <span>↓</span></a></div>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>Bootstrap</span><span>JavaScript</span></div>
+        </article></div>
+      </div>
+    </section>
+    <section id="templates" class="container section-space"><div class="section-heading"><div><div class="eyebrow">Ressources</div><h2>Mes <span>templates.</span></h2></div><p>Des bases visuelles réutilisables pour démarrer rapidement de nouveaux projets.</p></div><div class="row g-3"><div class="col-md-4"><article class="template-card surface"><div class="template-preview preview-a"><span>YOUR BRAND</span><b>Build<br>something<br>great.</b><i>↗</i></div><div class="template-info"><h3>Landing page</h3><span>01 · HTML / CSS</span></div></article></div><div class="col-md-4"><article class="template-card surface"><div class="template-preview preview-b"><div></div><b>Studio<br>créatif</b><span>DESIGN · 2026</span></div><div class="template-info"><h3>Portfolio créatif</h3><span>02 · Bootstrap</span></div></article></div><div class="col-md-4"><article class="template-card surface"><div class="template-preview preview-c"><span>NOTES / 001</span><b>Simple<br>dashboard</b><div class="template-bars"><i></i><i></i><i></i></div></div><div class="template-info"><h3>Dashboard</h3><span>03 · UI concept</span></div></article></div></div></section>
+    <section id="contact" class="container section-space"><div class="contact-panel"><div><div class="eyebrow">On en parle ?</div><h2>Un projet en tête ?<br><span>Construisons-le.</span></h2><p>Écrivez-moi pour échanger sur une idée, un projet ou une opportunité.</p></div><a class="button-primary" href="mailto:ahmed@example.com?subject=Bonjour%20Ahmed">Me contacter <span>↗</span></a><div class="contact-glow"></div></div></section>
+  </main>
+  <footer class="container footer"><a class="navbar-brand" href="#accueil">ahmed<span>.</span></a><span>© 2026 Ahmed · Portfolio personnel</span><button id="editToggle" class="edit-button" type="button" aria-pressed="false">✎ &nbsp;Modifier le contenu</button></footer>
+  <div id="editHint" class="edit-hint" aria-live="polite">Mode édition actif — cliquez sur un texte pour le modifier. Les changements sont enregistrés dans ce navigateur. <button id="doneEditing" type="button">Terminer</button></div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script><script src="script.js"></script>
+</body>
+</html>
